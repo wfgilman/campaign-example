@@ -8,7 +8,7 @@ config :campaign,
 config :campaign, Campaign.Repo,
   adapter: Ecto.Adapters.MySQL,
   username: "root",
-  password: "bghfm",
+  password: "",
   database: "campaign_dev",
   hostname: "localhost",
   pool_size: 10
