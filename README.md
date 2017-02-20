@@ -89,5 +89,5 @@ data otherwise using resource-heavy queries with Elixir.
 ## Enhancements
 
 In this example, the ETS looks up are sequential. They could easily be made
-concurrent by spawning `Task`s to read the table and report the results back
+concurrent by spawning asyncronous [`Tasks`](https://hexdocs.pm/elixir/Task.html#content) to read the table and report the results back
 to the server.
